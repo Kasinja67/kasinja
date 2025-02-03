@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware Maintenance Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hardware Maintenance Prediction</h1>
+        <form id="upload-form" method="post" enctype="multipart/form-data" action="process_data.php">
+            <label for="file">Upload Hardware Data (CSV):</label>
+            <input type="file" id="file" name="file" required>
+            <button type="submit"  >Analyze</button>
+        </form>
+        <div id="result">
+            <h2>Predictions</h2>
+            <div id="output" script src="script.js"> 
+                 
+                </div>
+        </div>
+    </div>
+   
+</body>
+</html>
